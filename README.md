@@ -23,7 +23,7 @@ To quit, press `CTRL+C`.
 By default, PyMatrix will use the japanese characterset with a frequency of 1 and a density of 2. Frequency controls the time between creating new "heads", and density controls how many "heads" will be created. You can specify the characterset, density, and frequency using the flags `-set`, `-d`, and `-f` respectively.
 
 ```shell
-$ python3 pymatrix -set cl -d 5 -f 3
+$ python3 pymatrix.py -set cl -d 5 -f 3
 ```
 
 Additionally, PyMatrix looks for an rc file to read from at `~/.pymatrix.rc`. You can set custom defaults there.
@@ -34,7 +34,7 @@ DENSITY=5
 FREQUENCY=3
 ```
 
-Lastly, because PyMatrix is one file and self-contained, you can put it in you `bin` and run from anywhere.
+Lastly, because PyMatrix is one file and self-contained, you can put it in your `bin` and run from anywhere.
 
 ```shell
 cp ./pymatrix.py /usr/local/bin/pymatrix
