@@ -34,7 +34,7 @@ DENSITY=5
 FREQUENCY=3
 ```
 
-Lastly, because PyMatrix is one file and self-contained, you can put it in you `bin` and run from anywhere.
+Lastly, because PyMatrix is one file and self-contained, you can put it in your `bin` and run from anywhere.
 
 ```shell
 cp ./pymatrix.py /usr/local/bin/pymatrix
