@@ -1,0 +1,8 @@
+# Dev
+
+env/
+.vscode/
+
+# Project
+
+*/__pycache__/
