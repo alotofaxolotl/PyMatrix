@@ -22,7 +22,7 @@ cols = 0
 frequency = 1
 density = 2
 tail_range = (5, 20)
-speed = 0.07
+speed = 0.045
 
 
 heads = []
