@@ -115,7 +115,7 @@ def matrix(stdscr):
 			if t.life <= 0:
 				tails.pop(tails.index(t))
 			try:
-				stdscr.addstr(t.y, t.x, t.character)
+				stdscr.addch(t.y, t.x, t.character)
 			except curses.error:
 				pass
 
@@ -127,7 +127,7 @@ def matrix(stdscr):
 			if h.y >= rows - 1:
 				heads.pop(heads.index(h))
 			try:
-				stdscr.addstr(h.y, h.x, h.character, curses.A_BOLD)
+				stdscr.addch(h.y, h.x, h.character, curses.A_BOLD)
 			except curses.error:
 				pass
 
